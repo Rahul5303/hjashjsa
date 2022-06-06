@@ -1,0 +1,17 @@
+#purchased_vouchers{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 20px;
+    text-align: center;
+    
+}
+h1{
+    background-color: thistle;
+    
+}
+
+#purchased_vouchers img{
+    height: 350px;
+    width: 60%;
+}
